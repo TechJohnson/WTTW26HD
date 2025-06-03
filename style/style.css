@@ -276,6 +276,18 @@ nav .navigation a:hover {
   padding: 100px 0 250px 0;
 }
 
+.slideshow-container .slideshow-slide-scotland3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/sheraton-grand.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
 .slideshow-container .slideshow-slide-dubrovnik {
   display: flex;
   justify-content: center;
