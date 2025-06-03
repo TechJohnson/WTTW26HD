@@ -264,6 +264,18 @@ nav .navigation a:hover {
   padding: 100px 0 250px 0;
 }
 
+.slideshow-container .slideshow-slide-scotland2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/edinburgh-destination.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
 .slideshow-container .slideshow-slide-dubrovnik {
   display: flex;
   justify-content: center;
@@ -760,12 +772,12 @@ footer .copyright {
   font-weight: 400;
 }
 
-.dot1_vienna {
+.dot1_scotland {
   height: 185px;
   width: 216px;
   margin: 0;
   display: item;
-  background-image: url(/images/vienna-box.jpg);
+  background-image: url(/images/scotland-resort.jpg);
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -777,16 +789,16 @@ footer .copyright {
   transition: background-color 0.6s ease;
 }
 
-.dot1_vienna span {
+.dot1_scotland span {
   font-weight: 400;
 }
 
-.dot2_vienna {
+.dot2_scotland {
   height: 185px;
   width: 216px;
   margin: 0;
   display: item;
-  background-image: url(/images/vienna-hotel-dining.png);
+  background-image: url(/images/scotland-dining.jpg);
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -796,16 +808,16 @@ footer .copyright {
   transition: background-color 0.6s ease;
 }
 
-.dot2_vienna span {
+.dot2_scotland span {
   font-weight: 400;
 }
 
-.dot3_vienna {
+.dot3_scotland {
   height: 185px;
   width: 216px;
   margin: 0;
   display: item;
-  background-image: url(/images/vienna-info.jpg);
+  background-image: url(/images/scotland-destination.jpg);
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -817,7 +829,7 @@ footer .copyright {
   transition: background-color 0.6s ease;
 }
 
-.dot3_vienna span {
+.dot3_scotland span {
   font-weight: 400;
 }
 
