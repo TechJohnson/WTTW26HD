@@ -1,0 +1,1906 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.full-width-nav {
+  position: fixed;
+  border-bottom: 5px solid #EF8200;
+  box-shadow: 0 13px 26px rgba(0, 0, 0, 0.29);
+  background-color: #FFFFFF;
+  background: #FFFFFF;
+  width: 100%;
+  z-index: 99;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav .navigation {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+nav .navigation a {
+  font-weight: 700;
+  color: #5B6770;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 15px;
+  margin: 0;
+}
+
+nav .navigation a:hover {
+  background: #eeeeee;
+  color: #EF8200;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropbtn {
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #5B6770;
+  font-weight: 700;
+  padding: 10px 12px;
+  margin: 0;
+}
+
+.dropbtn span {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.dropbtn:hover {
+  background: #eeeeee;
+  color: #EF8200;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  padding: 12px 16px;
+  margin: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.slideshow-container {
+  padding-top: 105px;
+  z-index: inherit;
+}
+
+.slideshow-container .slideshow-slide1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-slide.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-slide.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-slide.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-slide.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-slide.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-slide.jpg);
+  background-position: bottom center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/general-provisions-banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-vienna {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/vienna-slide.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-cancun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/cancun-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/contact-banner.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-tahiti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-scotland {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/scotland-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-dubrovnik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/dubrovnik-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-lisbon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/lisbon-destination.png);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-barbados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/barbados-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-royal2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/miami-cruise.png);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-new-orleans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/new-orleans-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-tahiti2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-destination.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-tahiti3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/tahiti-dining-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.carousel-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  text-align: center;
+  max-width: 794px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+
+.carousel-box h1 {
+  color: #EF8200;
+  font-weight: 700;
+  font-size: 25px;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.carousel-box h2 {
+  color: #ffffff;
+  font-size: 59px;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+
+.carousel-box h2 span {
+  font-weight: 400;
+}
+
+.carousel-box p {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.carousel-box button {
+  font-family: "Montserrat", sans-serif;
+  background: #EF8200;
+  border: none;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border-bottom: 3px solid #9B5400;
+  padding: 20px;
+  margin: 0;
+}
+
+.carousel-box button:hover {
+  background: #9B5400;
+  cursor: pointer;
+}
+
+.dot1 {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/dubrovnik-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1 span {
+  font-weight: 400;
+}
+
+.dot2 {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/new-orleans-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2 span {
+  font-weight: 400;
+}
+
+.dot3 {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/barbados-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3 span {
+  font-weight: 400;
+}
+
+.dot4 {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/tahiti-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot4 span {
+  font-weight: 400;
+}
+
+.dot5 {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/cancun-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot5 span {
+  font-weight: 400;
+}
+
+.dot6 {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/scotland-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot6 span {
+  font-weight: 400;
+}
+
+.carousel-dots {
+  display: flex;
+  font-size: 15px;
+  margin-top: -100px;
+  z-index: 999999;
+}
+
+.active {
+  background-color: #717171;
+}
+
+.registration {
+  display: flex;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.registration h2 {
+  font-size: 40px;
+  padding: 0 0 0 20px;
+  margin: 0;
+  border-left: 8px solid #EE8300;
+}
+
+.registration .reg-titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+}
+
+.registration .reg-titles img {
+  border-radius: 20px;
+}
+
+.registration .reg-info {
+  border: 8px solid #EE8300;
+  width: 1000px;
+  border-radius: 20px;
+  padding: 40px 50px 40px 50px;
+  margin: -205px 0 0 0;
+  width: 80%;
+}
+
+.registration .reg-info .info {
+  display: flex;
+  align-items: start;
+  padding-right: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.registration .reg-info .info img {
+  padding-right: 10px;
+  width: 24px;
+}
+
+.registration .reg-info p {
+  padding: 0;
+  margin: 0;
+}
+
+.trip-qualification {
+  display: flex;
+  background: #f4f4f4;
+  padding: 0 0 50px 0;
+  margin: 0;
+}
+
+.trip-qualification .qualification-content {
+  display: flex;
+  align-items: center;
+}
+
+.trip-qualification .qualification-content img {
+  display: flex;
+  width: 60%;
+}
+
+.trip-qualification .qualification-content h3 {
+  font-size: 40px;
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+.trip-qualification .qualification-content .info {
+  display: flex;
+  align-items: start;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.trip-qualification .qualification-content .info p {
+  padding: 0;
+  margin: 0;
+}
+
+.trip-qualification .qualification-content .info img {
+  padding-right: 10px;
+  width: 24px;
+}
+
+.registration2 {
+  display: flex;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.registration2 h2 {
+  font-size: 40px;
+  padding: 0 0 0 20px;
+  margin: 0 0 0 30px;
+  border-left: 8px solid #EE8300;
+}
+
+.registration2 .reg-titles {
+  display: flex;
+  align-items: start;
+  width: 100%;
+}
+
+.registration2 .reg-titles img {
+  border-radius: 20px;
+}
+
+.registration2 .reg-info {
+  float: right;
+  border: 8px solid #EE8300;
+  width: 1000px;
+  border-radius: 20px;
+  padding: 40px 50px 40px 50px;
+  margin: -205px 0 0 0;
+  width: 80%;
+}
+
+.registration2 .reg-info .info {
+  display: flex;
+  align-items: start;
+  padding-left: 165px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.registration2 .reg-info .info img {
+  padding-right: 10px;
+  width: 24px;
+}
+
+.registration2 .reg-info p {
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  background: #151A2E;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+footer .copyright {
+  font-weight: 700;
+  color: #EE8300;
+}
+
+.location-dots {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: -100px;
+  z-index: 999999;
+}
+
+.dot1_tahiti {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/tahiti-details.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_tahiti span {
+  font-weight: 400;
+}
+
+.dot2_tahiti {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/tahiti-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_tahiti span {
+  font-weight: 400;
+}
+
+.dot3_tahiti {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/tahiti-info.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_tahiti span {
+  font-weight: 400;
+}
+
+.dot1_vienna {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/vienna-box.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_vienna span {
+  font-weight: 400;
+}
+
+.dot2_vienna {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/vienna-hotel-dining.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_vienna span {
+  font-weight: 400;
+}
+
+.dot3_vienna {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/vienna-info.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_vienna span {
+  font-weight: 400;
+}
+
+.dot1_morocco {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/marrakech-hotel.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_morocco span {
+  font-weight: 400;
+}
+
+.dot2_morocco {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/marrakech-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_morocco span {
+  font-weight: 400;
+}
+
+.dot3_morocco {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/marrakech-info.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_morocco span {
+  font-weight: 400;
+}
+
+.dot1_lake {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/lake-details.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_lake span {
+  font-weight: 400;
+}
+
+.dot2_lake {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/lake-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_lake span {
+  font-weight: 400;
+}
+
+.dot3_lake {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/lake-info.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_lake span {
+  font-weight: 400;
+}
+
+.dot1_lisbon {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/lisbon-hotel.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_lisbon span {
+  font-weight: 400;
+}
+
+.dot2_lisbon {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/lisbon-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_lisbon span {
+  font-weight: 400;
+}
+
+.dot3_lisbon {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/lisbon-info.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_lisbon span {
+  font-weight: 400;
+}
+
+.dot1_royal {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/cruise-details.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_royal span {
+  font-weight: 400;
+}
+
+.dot2_royal {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/royal-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_royal span {
+  font-weight: 400;
+}
+
+.dot3_royal {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/itinerary.png);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_royal span {
+  font-weight: 400;
+}
+
+.destination-overview {
+  padding: 50px 0;
+  margin: 0;
+}
+
+.destination-overview .overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.destination-overview .overview h3 {
+  color: #EE8300;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.destination-overview .overview h2 {
+  font-size: 2.125rem;
+  padding: 0 0 25px 0;
+  margin: 0;
+}
+
+.destination-overview .overview p {
+  line-height: 1.4;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.destination-overview .overview .bold {
+  width: 100%;
+}
+
+.inclusions2 {
+  display: flex;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.inclusions3 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0;
+  margin: 110px 0 0 0px;
+  background: white;
+}
+
+.inclusions3 .inclusion-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+}
+
+.contact-form .form-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-form .form-name input {
+  font-family: inherit;
+  color: #000000;
+  width: 47.5%;
+  padding: 10px;
+  margin: 5px 2px;
+}
+
+.contact-form .contact-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-form .contact-info input {
+  font-family: inherit;
+  color: #000000;
+  width: 47.5%;
+  padding: 10px;
+  margin: 5px 2px;
+}
+
+.contact-form .trip-select {
+  display: flex;
+  width: 100%;
+}
+
+.contact-form .trip-select select {
+  font-family: inherit;
+  color: #000000;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 2px;
+}
+
+.contact-form .message {
+  display: flex;
+  width: 100%;
+}
+
+.contact-form .message textarea {
+  font-family: inherit;
+  color: #000000;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 2px;
+}
+
+.contact-form .submit {
+  display: flex;
+  width: 100%;
+}
+
+.contact-form .submit input {
+  font-family: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  background: #EE8300;
+  border: none;
+  padding: 10px;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+.contact-form .submit input:hover {
+  background: #a75c01;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background: white;
+  color: #111111;
+  padding: 10px 15px;
+  border: none;
+}
+
+#mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .full-width-nav {
+    display: none;
+  }
+  .slideshow-container {
+    padding: 0;
+  }
+  .carousel-dots {
+    flex-wrap: wrap;
+  }
+  .dot1 {
+    border-radius: 0;
+  }
+  .dot6 {
+    border-radius: 0;
+  }
+  .reg-titles img {
+    display: none;
+  }
+  .registration .reg-info {
+    margin: 20px 0 0 0;
+  }
+  .registration .reg-info .info {
+    padding-right: 0;
+  }
+  .trip-qualification .qualification-content {
+    flex-wrap: wrap;
+  }
+  .registration2 .reg-info {
+    margin: 20px 0 0 0;
+  }
+  .registration2 .reg-info .info {
+    padding-left: 0;
+  }
+  .trip-qualification .qualification-content img {
+    width: 100%;
+  }
+  .restaurant {
+    display: flex;
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .restaurant .destination-info {
+    font-size: 2.125rem;
+    text-align: center;
+    padding: 0 0 25px 0;
+    margin: 0;
+  }
+  .restaurant .hall1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .restaurant .hall1 img {
+    width: 100%;
+  }
+  .restaurant .hall1 .box7 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box7 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box7 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box7 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box7 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box7 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box1 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box1 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box1 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box1 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box1 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box1 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box2 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box2 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box2 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box2 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box2 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box2 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box3 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box3 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box3 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box3 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box3 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box3 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box4 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box4 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box4 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box4 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box4 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box4 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box5 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box5 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box5 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box5 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box5 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box5 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box6 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box6 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box6 img {
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box6 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box6 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box6 .info .bold {
+    font-weight: 700;
+  }
+  .inclusions {
+    padding: 50px 0;
+    margin: 0;
+  }
+  .inclusions .inclusion-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .inclusions button {
+    font-family: "Montserrat", sans-serif;
+    background: #EF8200;
+    border: none;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-bottom: 3px solid #9B5400;
+    padding: 20px;
+    margin: 5px;
+  }
+  .inclusions button:hover {
+    background: #9B5400;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .slideshow-container {
+    padding-top: 105px;
+  }
+  #mobile {
+    display: none;
+  }
+  .restaurant {
+    display: flex;
+    padding-bottom: 50px;
+  }
+  .restaurant .restaurant-intro {
+    text-align: center;
+  }
+  .restaurant .restaurant-intro h2 {
+    color: #EE8300;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0 15px 0;
+    margin: 0;
+  }
+  .restaurant .restaurant-intro p {
+    color: #151A2E;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .restaurant-intro h3 {
+    color: #151A2E;
+    font-size: 1.5rem;
+    padding: 75px 0 25px 0;
+    margin: 0;
+  }
+  .restaurant .restaurant-intro .destination-info {
+    font-size: 2.125rem;
+    padding: 0 0 25px 0;
+    margin: 0;
+  }
+  .restaurant .hall1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .restaurant .hall1 .box {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 552px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box2 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 386px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box2 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box2 img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box2 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box2 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box2 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box3 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 386px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box3 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box3 img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box3 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box3 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box3 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box4 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 675px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box4 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box4 img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box4 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box4 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box4 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box5 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 400px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box5 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box5 img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box5 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box5 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box5 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box6 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 450px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box6 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box6 img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box6 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box6 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box6 .info .bold {
+    font-weight: 700;
+  }
+  .restaurant .hall1 .box7 {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    width: 28%;
+    height: 845px;
+    padding: 20px;
+    margin: 75px 10px 0 10px;
+  }
+  .restaurant .hall1 .box7 h2 {
+    text-align: center;
+  }
+  .restaurant .hall1 .box7 img {
+    width: 355px;
+    border: 5px solid #EE8300;
+    border-radius: 10px;
+    margin-top: -75px;
+    padding: 0;
+  }
+  .restaurant .hall1 .box7 .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box7 .info p {
+    padding: 0;
+    margin: 0;
+  }
+  .restaurant .hall1 .box7 .info .bold {
+    font-weight: 700;
+  }
+  .inclusions {
+    padding: 50px 0;
+    margin: 0;
+  }
+  .inclusions .inclusion-content {
+    display: flex;
+  }
+  .inclusions .inclusion-content .content {
+    width: 50%;
+  }
+  .inclusions .inclusion-content img {
+    width: 50%;
+    height: 50%;
+  }
+  .inclusions .inclusion-content button {
+    font-family: "Montserrat", sans-serif;
+    background: #EF8200;
+    border: none;
+    font-weight: 700;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border-bottom: 3px solid #9B5400;
+    padding: 20px;
+    margin: 5px;
+  }
+  .inclusions .inclusion-content button:hover {
+    background: #9B5400;
+    cursor: pointer;
+  }
+}
