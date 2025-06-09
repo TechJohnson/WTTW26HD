@@ -312,6 +312,30 @@ nav .navigation a:hover {
   padding: 100px 0 250px 0;
 }
 
+.slideshow-container .slideshow-slide-dubrovnik2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/palace.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-dubrovnik3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/dubrovnik-dining-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
 .slideshow-container .slideshow-slide-lisbon2 {
   display: flex;
   justify-content: center;
@@ -854,6 +878,67 @@ footer .copyright {
 }
 
 .dot3_scotland span {
+  font-weight: 400;
+}
+
+.dot1_dubrovnik {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/dubrovnik-details.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_dubrovnik span {
+  font-weight: 400;
+}
+
+.dot2_dubrovnik {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/dubrovnik-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_dubrovnik span {
+  font-weight: 400;
+}
+
+.dot3_dubrovnik {
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/dubrovnik-destination.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_dubrovnik span {
   font-weight: 400;
 }
 
