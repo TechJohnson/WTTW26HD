@@ -336,6 +336,18 @@ nav .navigation a:hover {
   padding: 100px 0 250px 0;
 }
 
+.slideshow-container .slideshow-slide-dubrovnik4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/dubrovnik-destination-bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
 .slideshow-container .slideshow-slide-lisbon2 {
   display: flex;
   justify-content: center;
