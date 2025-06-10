@@ -396,6 +396,18 @@ nav .navigation a:hover {
   padding: 100px 0 250px 0;
 }
 
+.slideshow-container .slideshow-slide-barbados4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/barbados-destination-bg2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
 .slideshow-container .slideshow-slide-royal2 {
   display: flex;
   justify-content: center;
