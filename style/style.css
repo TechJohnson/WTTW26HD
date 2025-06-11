@@ -408,6 +408,30 @@ nav .navigation a:hover {
   padding: 100px 0 250px 0;
 }
 
+.slideshow-container .slideshow-slide-cancun2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/planet-hollywood.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-cancun3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/cancun-dining-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
 .slideshow-container .slideshow-slide-royal2 {
   display: flex;
   justify-content: center;
@@ -1066,6 +1090,70 @@ footer .copyright {
 }
 
 .dot3_barbados span {
+  font-weight: 400;
+}
+
+.dot1_cancun {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/cancun-details.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot1_cancun span {
+  font-weight: 400;
+}
+
+.dot2_cancun {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/cancun-dining.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot2_cancun span {
+  font-weight: 400;
+}
+
+.dot3_cancun {
+  text-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+  height: 185px;
+  width: 216px;
+  margin: 0;
+  display: item;
+  background-image: url(/images/cancun-destination.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.dot3_cancun span {
   font-weight: 400;
 }
 
