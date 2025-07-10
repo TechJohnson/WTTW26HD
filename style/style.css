@@ -604,6 +604,8 @@ nav .navigation a:hover {
   background-image: url(/images/new-orleans-box.jpg);
   background-size: cover;
   background-position: center;
+    border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   color: #ffffff;
   font-weight: 700;
   padding: 20px;
@@ -668,8 +670,6 @@ nav .navigation a:hover {
   background-position: center;
   color: #ffffff;
   font-weight: 700;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
   padding: 20px;
   cursor: pointer;
   transition: background-color 0.6s ease;

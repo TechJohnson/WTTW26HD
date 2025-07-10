@@ -28,10 +28,10 @@
         <a href="/">Home</a>
         <a href="/tahiti-destination.html">Tahiti</a>
         <a href="/edinburgh-destination.html">Edinburgh</a>
-        <a href="/dubrovnik-destination.html">Dubrovnik</a>
         <a href="/barbados-destination.html">Barbados</a>
-        <a href="/new-orleans-destination.html">New Orleans</a>
+        <a href="/dubrovnik-destination.html">Dubrovnik</a>
         <a href="/cancun-destination.html">Cancun</a>
+        <a href="/new-orleans-destination.html">New Orleans</a>
         <a href="/general-provisions.html">General Provisions</a>
         <a href="/contact.asp">Contact</a>
     </div>
@@ -89,15 +89,6 @@
                 </div>
 
                 <div class="dropdown">
-                    <button class="dropbtn">Dubrovnik<br><span>Gold </span></button>
-                    <div class="dropdown-content">
-                        <a href="/dubrovnik-destination.html">Destination</a>
-                        <a href="/dubrovnik-restaurants.html">Restaurants</a>
-                        <a href="/dubrovnik-resort.html">Resort</a>
-                    </div>
-                </div>
-
-                <div class="dropdown">
                     <button class="dropbtn">Barbados<br><span>Gold</span></button>
                     <div class="dropdown-content">
                         <a href="/barbados-destination.html">Destination</a>
@@ -107,14 +98,14 @@
                 </div>
     
                 <div class="dropdown">
-                    <button class="dropbtn">New Orleans <br><span>Silver</span></button>
+                    <button class="dropbtn">Dubrovnik<br><span>Gold </span></button>
                     <div class="dropdown-content">
-                        <a href="/new-orleans-destination.html">Destination</a>
-                        <a href="/new-orleans-restaurants.html">Restaurants</a>
-                        <a href="/new-orleans-resort.html">Report</a>
+                        <a href="/dubrovnik-destination.html">Destination</a>
+                        <a href="/dubrovnik-restaurants.html">Restaurants</a>
+                        <a href="/dubrovnik-resort.html">Resort</a>
                     </div>
                 </div>
-    
+
                 <div class="dropdown">
                     <button class="dropbtn">Cancun<br><span>Silver</span></button>
                     <div class="dropdown-content">
@@ -124,6 +115,15 @@
                     </div>
                 </div>
                 
+                <div class="dropdown">
+                    <button class="dropbtn">New Orleans <br><span>Silver</span></button>
+                    <div class="dropdown-content">
+                        <a href="/new-orleans-destination.html">Destination</a>
+                        <a href="/new-orleans-restaurants.html">Restaurants</a>
+                        <a href="/new-orleans-resort.html">Report</a>
+                    </div>
+                </div>
+    
                 <a href="/general-provisions.html">General Provisions</a>
                 
                 <a href="/contact.html">Contact</a>
