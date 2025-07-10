@@ -244,6 +244,18 @@ nav .navigation a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(/images/tahiti-bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 100px 0 250px 0;
+}
+
+.slideshow-container .slideshow-slide-tahiti4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(/images/tahiti-bg.jpg);
   background-position: center;
   background-size: cover;
@@ -496,7 +508,7 @@ nav .navigation a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/tahiti-destination.jpg);
+  background-image: url(/images/tahiti-bg-2.jpg);
   background-position: center;
   background-size: cover;
   height: 100%;
