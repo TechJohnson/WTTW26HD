@@ -145,21 +145,19 @@
     </div>
     
 </div>
-<%
-Dim req
-req = Request.QueryString("m")
 
-If req & "" = "1" Then %>
-    <div class="container">
-        <div class="successful">Your inquiry has been submitted and someone from our team will be back in touch with you within two business days.</div>
-    </div>
-<%End If %>
 
+
+
+
+
+
+<!-- HTML Form (not functioning) -->
 <div class="inclusions3">
     <div class="container">
-        <p>If you have questions or comments or need additional information about the 2025 Windows to the World Trips, please contact your District Sales Manager for assistance. You can also submit your questions below and a representative will respond within 48 business hours.</p>
-    
-        <form method="post" action="https://aficio.ricoh.com/Ext/SendExtEmails.asp" class="contact-form">
+        <p>If you have questions or comments or need additional information about the 2025 Windows to the World Trips, please contact your Business Development Manager for assistance. You can also submit your questions below and a representative will respond within 48 business hours.</p>
+
+        <form method="post" action="contact.php" class="contact-form">
             <div class="form-name">
                 <input type="name" id="fname" name="fname" placeholder="First Name" required />
                 <input type="name" id="lname" name="lname" placeholder="Last Name" required />
